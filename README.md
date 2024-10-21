@@ -1,1 +1,1 @@
-in mijn project ga ik een website maken waarin alles te vinden staat over de ouderavond.
+in onze project gaan we een website maken waarin alles te vinden staat over de ouderavond.
