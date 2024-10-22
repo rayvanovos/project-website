@@ -87,7 +87,6 @@ h3{
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -108,4 +107,13 @@ h3{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+ }
+
+ .imgschool{
+    width: 30vw;
+    margin-left: 100px;
+ }
+ .lgh2{
+    color: white;
+    margin-left: 60%;
  }
