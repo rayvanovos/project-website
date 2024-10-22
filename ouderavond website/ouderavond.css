@@ -14,13 +14,14 @@ ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    
+   
 
 }
 
 li{
  
     padding: 5vh;
+    flex-wrap: wrap;
   
 }
 
@@ -93,6 +94,8 @@ h3{
     background-color: darkgreen;
     color: white;
     text-align: center;
+   margin-top: 60vh;
+    bottom: 0;
  }
 
  .info1{
@@ -112,8 +115,68 @@ h3{
  .imgschool{
     width: 30vw;
     margin-left: 100px;
+    float: left;
+ }
+
+ .imgschoolEdu{
+    width: 50vw;
+
  }
  .lgh2{
     color: white;
-    margin-left: 60%;
+    float: right;
  }
+
+.lgh2Edu{
+   color: white;
+   float: right;
+   padding: 3vw;
+}
+
+ form{
+    text-align: center;
+    color: white;
+ }
+
+ #J
+ {
+    float: left;
+    padding: 1vh;
+
+ }
+
+ #R
+ {
+    float: right;
+    padding: 1vh;
+ }
+
+ p{
+    color: white;
+ }
+
+ table{
+width: 100vw;
+color: #ffffff;
+text-align: center;
+}
+
+.LoSoft{
+    width:10vw;
+}
+
+.LoSoft2{
+    width:20vw;
+}
+
+#THja{
+    width: 20vw;
+}
+
+#lin{
+    color: white;
+}
+
+#end{
+text-align: center;
+}
