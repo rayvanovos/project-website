@@ -54,7 +54,7 @@
 </p>
 <p class="info1">⬇️meld je aan voor de Ouderavond⬇️ 
 </p>
-<form>
+<form action="ouderAanmeld.html">
 
     <br>
     <label for="voornaam">voornaam</label><br>
@@ -63,8 +63,6 @@
     <br>
     <label for="achtrnaam">achternaam</label><br>
     <input type="text" name="achternaam" id="achternaam" placeholder="" required pattern="[a-zA-Z]+"> 
-
-
 
     <br>
     <br>
@@ -75,6 +73,9 @@
         <option value="vrouw">vrouw</option>   
         <option value="ander">ander</option>  
     </select><br>
+    <br>
+    <label for="people">aantal mensen</label>
+    <input type="number" name="people" id="people" min="1" max="4" required><br>
 
     <br>
    <input type="email" name="email" id="email" placeholder="e-mail" required><br>
@@ -82,6 +83,7 @@
 <br><br>
 
   <input type="submit" id="aanMSubm" name="aanMSubm" value="aanmelden" checked>
+  <input type="reset" id="aanMreset" name="aanMreset" value="reset" checked>
 </form>
 
     </main>
